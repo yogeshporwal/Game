@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="heading">Rock-Paper-Scissors</h1>
+
+    <div id="command_div">
+        <p id="command">Select your choice!</p>
+    </div>
+
+    <div class="choices" >
+        <div class="choice" id="rock"> 
+            <img src="/Users/yogeshporwal/Documents/Study/JavaScript/Game/Images/rock.png" alt="rock"> 
+        </div>
+
+        <div class="choice" id="paper"> 
+            <img src="/Users/yogeshporwal/Documents/Study/JavaScript/Game/Images/paper.png" alt="paper"> 
+        </div>
+
+        <div class="choice" id="scissors"> 
+            <img src="/Users/yogeshporwal/Documents/Study/JavaScript/Game/Images/scissors.png" alt="scissors"> 
+        </div>
+    </div>
+
+    <div class="showchoices">
+        <div >
+            <img class="choiceimg" src="./Images/left_paper.png">
+            <p class="choicemsg">Your Choice</p>
+        </div>
+
+        <div id="command_div">
+            <p id="message"> </p>
+        </div>
+
+        <div >
+            <img class="choiceimg" src="./Images/right_paper.png"> 
+            <p class="choicemsg">Computer Choice</p>
+        </div>    
+        
+    </div>
+
+    <div id="scoreboard">
+        <div class="score">
+            <p id="userscore">0</p>
+            <p>Your Score</p>
+        </div>
+
+        <div class="score">
+            <p id="systemscore">0</p>
+            <p>Computer Score</p>
+        </div>
+    </div>
+
+    <script src="logic.js"></script>
+</body>
+</html>

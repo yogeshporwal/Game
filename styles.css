@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#heading
+{
+    height:50px;
+    text-align: center;
+    background-color: black;
+    color:white;
+    line-height: 50px;
+}
+
+#command_div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#command
+{
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    display: inline; 
+    padding: 5px;
+}
+
+.choices
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 15px;
+}
+
+.choice
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover
+{
+    opacity: 0.7;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.choice img
+{
+    height: 15rem;
+    width: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.showchoices
+{
+    /* height: 0px; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.choiceimg
+{
+    width: 0rem;
+    height: 0rem; 
+    object-fit: contain;   
+}
+
+.choicemsg
+{
+    visibility: hidden;
+}
+
+#scoreboard
+{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.score
+{
+    height: 80px;
+    width: 150px;
+    background-color: aqua;
+    font-size: 1.2rem;
+}
+
+#userscore, #systemscore
+{
+    font-size: 2rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#message
+{
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2rem;
+    display: inline; 
+    padding: 5px;
+}
