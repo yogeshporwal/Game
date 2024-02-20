@@ -53,6 +53,7 @@
     opacity: 0.7;
     border: 2px solid blue;
     border-radius: 50%;
+    cursor: grab;
 }
 
 .choice img
